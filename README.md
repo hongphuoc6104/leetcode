@@ -6,16 +6,16 @@ Chào mừng đến với kho lưu trữ luyện tập giải thuật của mìn
 - **Mục tiêu đầu tiên**: Hoàn thành 30 bài tập về **Binary Search**.
 - **Ngày bắt đầu**: 29/01/2026
 
-## Tiến độ (2/30)
+## Tiến độ (7/30)
 
-### Easy (2/10)
+### Easy (7/10)
 - [x] [035. Search Insert Position](./binarySearch/easy/035_search_insert_position.py)
 - [x] [069. Sqrt(x)](./binarySearch/easy/069_sqrt_x.py)
-- [ ] [278. First Bad Version](./binarySearch/easy/278_first_bad_version.py)
-- [ ] [367. Valid Perfect Square](./binarySearch/easy/367_valid_perfect_square.py)
-- [ ] [374. Guess Number Higher or Lower](./binarySearch/easy/374_guess_number_higher_or_lower.py)
-- [ ] [704. Binary Search](./binarySearch/easy/704_binary_search.py)
-- [ ] [744. Find Smallest Letter Greater Than Target](./binarySearch/easy/744_find_smallest_letter_greater_than_target.py)
+- [x] [278. First Bad Version](./binarySearch/easy/278_first_bad_version.py)
+- [x] [367. Valid Perfect Square](./binarySearch/easy/367_valid_perfect_square.py)
+- [x] [374. Guess Number Higher or Lower](./binarySearch/easy/374_guess_number_higher_or_lower.py)
+- [x] [704. Binary Search](./binarySearch/easy/704_binary_search.py)
+- [x] [744. Find Smallest Letter Greater Than Target](./binarySearch/easy/744_find_smallest_letter_greater_than_target.py)
 - [ ] [1351. Count Negative Numbers in a Sorted Matrix](./binarySearch/easy/1351_count_negative_numbers_in_matrix.py)
 - [ ] [1608. Special Array With X Elements Greater Than or Equal X](./binarySearch/easy/1608_special_array.py)
 - [ ] [2089. Find Target Indices After Sorting Array](./binarySearch/easy/2089_find_target_indices.py)
