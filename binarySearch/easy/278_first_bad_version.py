@@ -1,64 +1,73 @@
-"""
-LeetCode 278. First Bad Version
-https://leetcode.com/problems/first-bad-version/
+# """
+# LeetCode 278. First Bad Version
+# https://leetcode.com/problems/first-bad-version/
 
-Difficulty: Easy
+# Difficulty: Easy
 
-Problem:
-You are a product manager and currently leading a team to develop a new product.
-Unfortunately, the latest version of your product fails the quality check.
-Since each version is developed based on the previous version, all the versions
-after a bad version are also bad.
+# Problem:
+# You are a product manager and currently leading a team to develop a new product.
+# Unfortunately, the latest version of your product fails the quality check.
+# Since each version is developed based on the previous version, all the versions
+# after a bad version are also bad.
 
-Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one,
-which causes all the following ones to be bad.
+# Suppose you have n versions [1, 2, ..., n] and you want to find out the first bad one,
+# which causes all the following ones to be bad.
 
-You are given an API bool isBadVersion(version) which returns whether version is bad.
-Implement a function to find the first bad version. 
-You should minimize the number of calls to the API.
+# You are given an API bool isBadVersion(version) which returns whether version is bad.
+# Implement a function to find the first bad version. 
+# You should minimize the number of calls to the API.
 
-Example 1:
-    Input: n = 5, bad = 4
-    Output: 4
-    Explanation:
-    call isBadVersion(3) -> false
-    call isBadVersion(5) -> true
-    call isBadVersion(4) -> true
-    Then 4 is the first bad version.
+# Example 1:
+#     Input: n = 5, bad = 4
+#     Output: 4
+#     Explanation:
+#     call isBadVersion(3) -> false
+#     call isBadVersion(5) -> true
+#     call isBadVersion(4) -> true
+#     Then 4 is the first bad version.
 
-Example 2:
-    Input: n = 1, bad = 1
-    Output: 1
-"""
+# Example 2:
+#     Input: n = 1, bad = 1
+#     Output: 1
+# """
 
-# The isBadVersion API is already defined for you.
+# # The isBadVersion API is already defined for you.
+# # def isBadVersion(version: int) -> bool:
+
+# bad_version = 4  # For testing
+
+
 # def isBadVersion(version: int) -> bool:
-
-bad_version = 4  # For testing
-
-
-def isBadVersion(version: int) -> bool:
-    return version >= bad_version
+#     return version >= bad_version
 
 
-class Solution:
-    def firstBadVersion(self, n: int) -> int:
-        # TODO: Implement your solution here
-        pass
+# class Solution:
+#     def firstBadVersion(self, n: int) -> int:
+#         left = 1
+#         right = n
+
+#         while left < right:
+#             mid = left + (right - left) // 2
+#             if isBadVersion(mid):
+#                 right = mid
+#             else:
+#                 left = mid + 1
+
+#         return right
 
 
-def main():
-    global bad_version
-    solution = Solution()
+# def main():
+#     global bad_version
+#     solution = Solution()
     
-    # Test case 1
-    bad_version = 4
-    print(f"Test 1: {solution.firstBadVersion(5)}")  # Expected: 4
+#     # Test case 1
+#     bad_version = 4
+#     print(f"Test 1: {solution.firstBadVersion(5)}")  # Expected: 4
     
-    # Test case 2
-    bad_version = 1
-    print(f"Test 2: {solution.firstBadVersion(1)}")  # Expected: 1
+#     # Test case 2
+#     bad_version = 1
+#     print(f"Test 2: {solution.firstBadVersion(1)}")  # Expected: 1
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
