@@ -14,7 +14,7 @@
 ## Vòng 1: Easy (Tuần 1-4)
 
 ### Tuần 1 (11/02 - 16/02)
-- [ ] T4 11/02 — **[A]** 1. Two Sum
+- [x] T4 11/02 — **[A]** 1. Two Sum
 - [ ] T5 12/02 — **[B]** 125. Valid Palindrome
 - [ ] T6 13/02 — **[C]** 643. Maximum Average Subarray I
 - [ ] T7 14/02 — **[A]** 26. Remove Duplicates from Sorted Array
