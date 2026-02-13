@@ -37,7 +37,7 @@ Chào mừng đến với kho lưu trữ luyện tập DSA (Data Structures & Al
 | Chủ đề | Hướng dẫn | Easy | Medium | Hard | Tiến độ |
 |--------|-----------|------|--------|------|---------|
 | Array & String | [📖](./docs/topics/01_array_string.md) | 0/10 | 0/10 | 0/10 | 0/30 |
-| Two Pointers | [📖](./docs/topics/02_two_pointers.md) | 0/10 | 0/10 | 0/10 | 0/30 |
+| Two Pointers | [📖](./docs/topics/02_two_pointers.md) | 1/10 | 0/10 | 0/10 | 1/30 |
 | Sliding Window | [📖](./docs/topics/03_sliding_window.md) | 0/10 | 0/10 | 0/10 | 0/30 |
 
 ### Phase 2: Tìm kiếm & CTDL Tuyến tính (Tuần 13-24)
@@ -72,7 +72,7 @@ Chào mừng đến với kho lưu trữ luyện tập DSA (Data Structures & Al
 | Sorting | [📖](./docs/topics/14_sorting.md) | 0/10 | 0/10 | 0/10 | 0/30 |
 | Ôn tổng hợp | — | — | — | — | Review |
 
-**Tổng cộng**: **7/420** bài hoàn thành
+**Tổng cộng**: **8/420** bài hoàn thành
 
 ---
 

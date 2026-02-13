@@ -15,7 +15,7 @@
 
 ### Tuần 1 (11/02 - 16/02)
 - [x] T4 11/02 — **[A]** 1. Two Sum
-- [ ] T5 12/02 — **[B]** 125. Valid Palindrome
+- [x] T5 12/02 — **[B]** 125. Valid Palindrome
 - [ ] T6 13/02 — **[C]** 643. Maximum Average Subarray I
 - [ ] T7 14/02 — **[A]** 26. Remove Duplicates from Sorted Array
 - [ ] CN 15/02 — **[B]** 344. Reverse String
