@@ -3,4 +3,16 @@
 
 class Solution:
     def removeDuplicates(self, nums: list[int]) -> int:
-        pass
+        if not nums:
+            return 0
+        L = 0
+        R = 1
+        while R < len(nums):
+            if nums[L] == nums[R]:
+                R += 1
+            else:
+                L += 1
+                nums[L] = nums[R]
+                R += 1
+        return L + 1
+        
