@@ -19,7 +19,7 @@
 - [x] T6 13/02 — **[C]** 643. Maximum Average Subarray I
 - [x] T7 14/02 — **[A]** 26. Remove Duplicates from Sorted Array
 - [x] CN 15/02 — **[B]** 344. Reverse String
-- [ ] T2 16/02 — **[C]** 219. Contains Duplicate II
+- [x] T2 16/02 — **[C]** 219. Contains Duplicate II
 - [ ] 🔄 Review: Luyện lại bài cũ (chưa có Phase trước)
 
 ### Tuần 2 (17/02 - 23/02)
@@ -445,7 +445,7 @@
 ### Tuần 38 (17/11 - 23/11)
 - [ ] T2 17/11 — **[A]** 997. Find Town Judge
 - [ ] T3 18/11 — **[B]** 746. Min Cost Climbing Stairs
-- [ ] T4 19/11 — **[C]** 401. Binary Watch
+- [x] T4 19/11 — **[C]** 401. Binary Watch ✅
 - [ ] T5 20/11 — **[A]** 1971. Find if Path Exists
 - [ ] T6 21/11 — **[B]** 121. Best Time Buy/Sell Stock
 - [ ] T7 22/11 — **[C]** 1863. Sum All Subset XOR
