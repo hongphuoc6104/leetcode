@@ -36,9 +36,9 @@ Chào mừng đến với kho lưu trữ luyện tập DSA (Data Structures & Al
 
 | Chủ đề | Hướng dẫn | Easy | Medium | Hard | Tiến độ |
 |--------|-----------|------|--------|------|---------|
-| Array & String | [📖](./docs/topics/01_array_string.md) | 0/10 | 0/10 | 0/10 | 0/30 |
-| Two Pointers | [📖](./docs/topics/02_two_pointers.md) | 1/10 | 0/10 | 0/10 | 1/30 |
-| Sliding Window | [📖](./docs/topics/03_sliding_window.md) | 0/10 | 0/10 | 0/10 | 0/30 |
+| Array & String | [📖](./docs/topics/01_array_string.md) | 2/10 | 0/10 | 0/10 | 2/30 |
+| Two Pointers | [📖](./docs/topics/02_two_pointers.md) | 2/10 | 0/10 | 0/10 | 2/30 |
+| Sliding Window | [📖](./docs/topics/03_sliding_window.md) | 1/10 | 0/10 | 0/10 | 1/30 |
 
 ### Phase 2: Tìm kiếm & CTDL Tuyến tính (Tuần 13-24)
 
@@ -72,7 +72,7 @@ Chào mừng đến với kho lưu trữ luyện tập DSA (Data Structures & Al
 | Sorting | [📖](./docs/topics/14_sorting.md) | 0/10 | 0/10 | 0/10 | 0/30 |
 | Ôn tổng hợp | — | — | — | — | Review |
 
-**Tổng cộng**: **8/420** bài hoàn thành
+**Tổng cộng**: **13/420** bài hoàn thành
 
 ---
 
@@ -85,6 +85,7 @@ leetcode/
 │   ├── roadmap.md              # Phương pháp học chi tiết
 │   ├── daily_plan.md           # Lịch học hằng ngày
 │   └── topics/                 # 14 file hướng dẫn theo chủ đề
+├── exercises/                  # 🏋️ Bài tập thực hành (scratch)
 ├── binarySearch/               # (Đang làm - 7/30)
 │   ├── easy/ medium/ hard/
 ├── arrayString/                # (Tạo khi bắt đầu)

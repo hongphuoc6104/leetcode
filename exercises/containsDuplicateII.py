@@ -1,12 +1,25 @@
 # 219. Contains Duplicate II
-# Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
+# Given an integer array nums and an integer k,
+#  return true if there are two distinct indices
+#  i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.
 
 class Solution:
     # @param nums, a list of integers
     # @param k, an integer
     # @return a boolean
-    def containsNearbyDuplicate(self, nums, k):
-        pass
+    def containsNearbyDuplicate(self, nums: list[int], k: int) -> bool:
+        if len(nums) == len(set(nums)):
+            return False
+        else:
+            seen = set()
+            for i in range(len(nums)):
+                if nums[i] in seen:
+                    return True
+                seen.add(nums[i])
+                if len(seen) > k:
+                    seen.remove(nums[i-k])
+        return False
+
 
 if __name__ == '__main__':
     s = Solution()
