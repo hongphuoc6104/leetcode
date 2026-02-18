@@ -24,7 +24,7 @@
 
 ### Tuần 2 (17/02 - 23/02)
 - [ ] T2 17/02 — **[A]** 27. Remove Element
-- [ ] T3 18/02 — **[B]** 167. Two Sum II
+- [x] T3 18/02 — **[B]** 167. Two Sum II
 - [ ] T4 19/02 — **[C]** 1446. Consecutive Characters
 - [ ] T5 20/02 — **[A]** 66. Plus One
 - [ ] T6 21/02 — **[B]** 283. Move Zeroes
